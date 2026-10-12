@@ -1,0 +1,51 @@
+# Dependencies and build outputs
+**/node_modules/
+Projet-Federateur/package-lock.json
+**/target/
+**/dist/
+**/dist-ssr/
+**/build/
+**/.gradle/
+**/.vite/
+**/coverage/
+
+# Local environment files (keep safe examples)
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs, temporary files, and local archives
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Secrets and local credentials
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+secrets/
+**/secrets/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
